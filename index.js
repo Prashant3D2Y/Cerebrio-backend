@@ -12,7 +12,7 @@ require('dotenv').config();
 dotenv.config();
 
 app.use(cors({
-    origin: '*',
+    origin: 'https://cerebrio-frontend-bvauaup3j-prashant3d2ys-projects.vercel.app',
     credentials: true
 }));
 app.use(express.json());
