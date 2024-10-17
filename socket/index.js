@@ -15,7 +15,7 @@ app.use(express.json()); // Middleware to parse JSON requests
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: process.env.FRONTEND_URL, // Replace with your frontend URL
+        origin: '*', // Replace with your frontend URL
         credentials: true,
     },
 });
