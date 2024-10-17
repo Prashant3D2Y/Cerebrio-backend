@@ -15,7 +15,7 @@ app.use(express.json()); // Middleware to parse JSON requests
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: '*', // Replace with your frontend URL
+        origin: 'https://cerebrio-frontend-bvauaup3j-prashant3d2ys-projects.vercel.app', // Replace with your frontend URL
         credentials: true,
     },
 });
